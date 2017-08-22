@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>計算機作業</title>
+    
+    <script type="text/javascript">
+function MM_callJS(jsStr) { //v2.0
+  return eval(jsStr)
+}
+    </script>
+</head>
+<body>
+    <form name="calculator" >
+      <p>&nbsp;</p>
+      <table width="194" border="1" onfocus="MM_callJS('document.calculator.ans.value+=\'*\'')">
+        <tr>
+          <td colspan="4"><input type="textfield" name="ans" value="" size="47" height="158"></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center" valign="middle"><img src="mode.jpg" width="165" height="62" onClick="MM_callJS('document.calculator.ans.value+=\'%\'')"></td>
+          <td colspan="3" align="center" valign="middle"><img src="divided.jpg" width="165" height="58" onClick="MM_callJS('document.calculator.ans.value+=\'/\'')"></td>       
+        </tr>
+        <tr>
+          <td width="35" align="center" valign="middle"><img src="7.jpg" width="82" height="62" onClick="MM_callJS('document.calculator.ans.value+=\'7\'')"></td>
+          <td width="47" align="center" valign="middle"><img src="8.jpg" width="84" height="60" onClick="MM_callJS('document.calculator.ans.value+=\'8\'')"></td>
+          <td width="52" align="center" valign="middle"><img src="9.jpg" width="84" height="59" onClick="MM_callJS('document.calculator.ans.value+=\'9\'')"></td>
+          <td width="32" align="center" valign="middle" onfocus="MM_callJS('document.calculator.ans.value+=\'*\'')"><img src="multiply.jpg" width="81" height="61" onClick="MM_callJS('document.calculator.ans.value+=\'*\'')"></td>
+        </tr>
+        <tr>
+          <td align="center" valign="middle"><img src="4.jpg" width="78" height="64" onClick="MM_callJS('document.calculator.ans.value+=\'4\'')"></td>
+          <td align="center" valign="middle"><img src="5.jpg" width="81" height="60" onClick="MM_callJS('document.calculator.ans.value+=\'5\'')"></td>
+          <td align="center" valign="middle"><img src="6.jpg" width="81" height="59" onClick="MM_callJS('document.calculator.ans.value+=\'6\'')"></td>
+          <td align="center" valign="middle"><img src="minus.jpg" width="83" height="62" onClick="MM_callJS('document.calculator.ans.value+=\'-\'')"></td>
+        </tr>
+        <tr>
+          <td align="center" valign="middle"><img src="1.jpg" width="84" height="65" onClick="MM_callJS('document.calculator.ans.value+=\'1\'')"></td>
+          <td align="center" valign="middle"><img src="2.jpg" width="79" height="63" onClick="MM_callJS('document.calculator.ans.value+=\'2\'')"></td>
+          <td align="center" valign="middle"><img src="3.jpg" width="84" height="59" onClick="MM_callJS('document.calculator.ans.value+=\'3\'')"></td>
+          <td align="center" valign="middle"><img src="plus.jpg" width="80" height="64" onClick="MM_callJS('document.calculator.ans.value+=\'+\'')"></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center" valign="middle"><img src="0.jpg" width="162" height="59" onClick="MM_callJS('document.calculator.ans.value+=\'0\'')"></td>
+          <td align="center" valign="middle"><img src="dot.jpg" width="83" height="62" onClick="MM_callJS('document.calculator.ans.value+=\'.\'')"></td>
+          <td align="center" valign="middle"><img src="equal.jpg" width="83" height="64" onClick="MM_callJS('document.calculator.ans.value=eval(document.calculator.ans.value)')"></td>
+        </tr>
+      </table>
+      <p><br>
+        <br>
+      </p>
+    </form>
+    </body>
+</html>
